@@ -14,4 +14,8 @@
       <ProjectReference Include="..\Shop.Data\Shop.Data.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Pages\Order" />
+    </ItemGroup>
+
 </Project>
