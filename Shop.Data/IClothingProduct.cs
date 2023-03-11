@@ -7,10 +7,10 @@ namespace fashionsiteproject.Shop.Data
         IEnumerable<ClothingProduct> GetAll();
         IEnumerable<ClothingProduct> GetPreferred(int count);
         IEnumerable<ClothingProduct> GetFoodProductsByCategoryId(int categoryId);
-        IEnumerable<ClothingProduct> GetFilteredFoodProducts(int id, string searchQuery);
-        IEnumerable<ClothingProduct> GetFilteredFoodProducts(string searchQuery);
+        IEnumerable<ClothingProduct> GetFilteredClothingProducts(int id, string searchQuery);
+        IEnumerable<ClothingProduct> GetFilteredClothingProducts(string searchQuery);
 
-        IClothingProduct GetById(int id);
+        ClothingProduct GetById(int id);
 
         void NewClothingProducts(ClothingProduct clothingProducts);
         void EditClothingProducts(ClothingProduct clothingProducts);
