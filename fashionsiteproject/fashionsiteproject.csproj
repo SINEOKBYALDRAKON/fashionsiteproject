@@ -10,4 +10,11 @@
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0-preview.1.23111.4" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Shop.Web\Components" />
+      <Folder Include="Shop.Web\Controllers" />
+      <Folder Include="Shop.Web\DataMapper" />
+      <Folder Include="Shop.Web\Pages\Order" />
+    </ItemGroup>
+
 </Project>
