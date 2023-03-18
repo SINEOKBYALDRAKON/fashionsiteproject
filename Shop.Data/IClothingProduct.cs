@@ -5,8 +5,7 @@ namespace fashionsiteproject.Shop.Data
     public interface IClothingProduct
     {
         IEnumerable<ClothingProduct> GetAll();
-        IEnumerable<ClothingProduct> GetPreferred(int count);
-        IEnumerable<ClothingProduct> GetFoodProductsByCategoryId(int categoryId);
+        IEnumerable<ClothingProduct> GetClothingProductsByCategoryId(int categoryId);
         IEnumerable<ClothingProduct> GetFilteredClothingProducts(int id, string searchQuery);
         IEnumerable<ClothingProduct> GetFilteredClothingProducts(string searchQuery);
 

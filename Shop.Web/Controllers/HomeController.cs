@@ -8,34 +8,26 @@ namespace fashionsiteproject.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
     private readonly IClothingProduct _clothingService;
     private readonly Mapper _mapper;
     
-    public HomeController(ILogger<HomeController> logger, IClothingProduct clothingService)
+    public HomeController(IClothingProduct clothingService)
     {
-        _logger = logger;
         _clothingService = clothingService;
         _mapper = new Mapper();
     }
 
+    [Route("/")]
     public IActionResult Index()
     {
         return View();
     }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
-    
+
     public IActionResult Search(string searchQuery)
     {
         if (string.IsNullOrWhiteSpace(searchQuery) || string.IsNullOrEmpty(searchQuery))
