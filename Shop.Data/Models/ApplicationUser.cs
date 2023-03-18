@@ -1,6 +1,8 @@
-﻿namespace fashionsiteproject.Shop.Data.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace fashionsiteproject.Shop.Data.Models
 {
-    public class ApplicationUser
+    public class ApplicationUser : IdentityUser
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
