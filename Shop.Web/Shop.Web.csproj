@@ -21,6 +21,7 @@
 
     <ItemGroup>
       <Folder Include="Pages\Order" />
+      <Folder Include="Views\Category\" />
     </ItemGroup>
 
 </Project>
