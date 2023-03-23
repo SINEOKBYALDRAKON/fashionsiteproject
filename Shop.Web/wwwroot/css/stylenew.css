@@ -1,0 +1,101 @@
+.sitename{
+    text-align: center;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+/* navigation for the other pages */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    
+   
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+nav li {
+    padding: 0 40px 0 40px;
+    text-align: center;
+    display: inline-block;
+  }
+
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto property;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;    
+}
+
+/* Content css */
+.blogs-title {
+    text-align: left;
+    justify-content: space-between;
+    font-size: 26px;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 100px;
+}
+
+.blog {
+    margin: 10px 100px 20px 100px;
+}
+
+.blog-container {
+    display: flex;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+.blog-img {
+    margin-right: 20px;
+}
+
+.blog-title, .blog-text {
+    font-family: 'Nunito', sans-serif;
+}
+
+.blog-title {
+    font-weight: bold;
+    font-size: x-large;
+}
+.blog-text {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+.blog-actions {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: black;
+    height: 30px;
+    padding-top: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.blog-actions a {
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: black;
+}

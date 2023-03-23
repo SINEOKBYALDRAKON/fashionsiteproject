@@ -1,0 +1,122 @@
+.sitename{
+    text-align: center;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+/* navigation for the other pages */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    
+   
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+nav li {
+    padding: 0 40px 40px 40px;
+    text-align: center;
+    display: inline-block;
+  }
+
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto property;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;    
+}
+
+img {
+    width:  420px;
+    height: 420px;
+    padding: 10px 25px 15px 25px;
+}
+
+/* products css */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card-price {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.row {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a {
+    text-align: center;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.card-price {
+    display: table;
+    margin: 0 auto;
+}
+
+/* .card {
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body{
+    padding: 10px;
+    display: flex;
+    border-top: 1px solid;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+/* .card-image {
+    size: 2%;
+}
+ */
