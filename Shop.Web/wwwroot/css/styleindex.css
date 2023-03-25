@@ -192,18 +192,18 @@ nav a{
     right: 5%;
   }
   #slide-one {
-    background-image: url("./../12.jpg");
+    background-image: url("../1.jpg");
   }
   #slide-two {
-    background-image: url("./../22.jpg");
+    background-image: url("../2.jpg");
     
   }
   #slide-three {
-    background-image: url("./../32.jpg");
+    background-image: url("../3.jpg");
     
   }
   #slide-four {
-    background-image: url("./../42.jpg");
+    background-image: url("../41.jpg");
     
   }
   .slide-img {
