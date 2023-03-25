@@ -26,6 +26,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+<link rel="stylesheet" type="text/css" href="/Shop.Web\wwwroot\css\styleindex.css"/>
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
