@@ -191,11 +191,30 @@ nav a{
     -webkit-transform: rotate(-45deg);
     right: 5%;
   }
-
+  #slide-one {
+    background-image: url("./../12.jpg");
+  }
+  #slide-two {
+    background-image: url("./../22.jpg");
+    
+  }
+  #slide-three {
+    background-image: url("./../32.jpg");
+    
+  }
+  #slide-four {
+    background-image: url("./../42.jpg");
+    
+  }
   .slide-img {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+    height: 600px;
+    width: 90%;
+    /* overflow: hidden;
+    aspect-ratio: 16 / 9; */
+ 
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
   }
   
   /* .slider::before,
